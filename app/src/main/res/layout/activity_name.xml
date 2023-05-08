@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_name"
+    android:focusable="true"
+    android:focusedByDefault="false"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/activities_bg"
+    tools:context=".NameActivity">
+
+    <include
+        android:layout_centerInParent="true"
+        layout="@layout/galaxy_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/box_for_one_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="50dp"
+        android:orientation="vertical"
+        android:backgroundTint="#2E1775"
+        android:background="@drawable/dialog_bg"
+        android:gravity="center"
+        tools:targetApi="lollipop">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            app:civ_border_color="#FFFFFF"
+            app:civ_border_width="3dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_one" />
+
+        <EditText
+            android:id="@+id/player_name_ai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_centerInParent="true"
+            android:padding="14sp"
+            android:layout_marginTop="25sp"
+            android:background="@drawable/edittext_bg"
+            android:hint="Name"
+            android:fontFamily="@font/montserrat_medium"
+            android:textColorHint="#80FFFFFF"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:textColor="#fff"
+            android:theme="@style/TextLabel" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12sp"
+            android:layout_marginTop="25sp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@drawable/button_bg"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:text="Continue" />
+
+    </LinearLayout>
+
+</RelativeLayout>

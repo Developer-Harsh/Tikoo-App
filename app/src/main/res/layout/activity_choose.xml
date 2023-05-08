@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activities_bg"
+    android:id="@+id/layout_choose"
+    tools:context=".ChooseActivity">
+    <!-- Harsh Kumar Singh (snbApps) -->
+
+    <include
+        android:layout_centerInParent="true"
+        layout="@layout/galaxy_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/back_ib_choose"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:tint="#FFFFFF"
+        android:layout_margin="8dp"
+        android:layout_toStartOf="@id/label"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="?selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_left" />
+    <!-- Harsh Kumar Singh (snbApps) -->
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="Choose Players Choice"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="10dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+    <!-- Harsh Kumar Singh (snbApps) -->
+    <ScrollView
+        android:id="@+id/scroll_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label"
+        android:backgroundTint="@color/box"
+        android:background="@drawable/choose_bg"
+        android:layout_marginVertical="17dp"
+        android:layout_marginLeft="8dp"
+        android:padding="10dp"
+        android:clipToPadding="false"
+        android:scrollbarSize="0dp"
+        android:scrollbarStyle="insideInset"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:layout_marginBottom="50dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/hotface_image"
+                    android:src="@drawable/hot_face"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="150dp"/>
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/beaming_face_ws_image"
+                    android:src="@drawable/beaming_face_with_smiling_eyes"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="150dp"/>
+
+            </LinearLayout>
+            <!-- Harsh Kumar Singh (snbApps) -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/clapping_hands_image"
+                    android:src="@drawable/clapping_hands"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="150dp"/>
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/cold_face_image"
+                    android:src="@drawable/cold_face"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="150dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/confetti_ball_image"
+                    android:src="@drawable/confetti_ball"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="150dp"/>
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/crying_image"
+                    android:src="@drawable/crying"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="150dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/exploding_head_image"
+                    android:src="@drawable/exploding_head"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="150dp"/>
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/open_mouth_face_image"
+                    android:src="@drawable/face_with_open_mouth_vomiting"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="150dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/loudly_cying_image"
+                    android:src="@drawable/loudly_crying_face"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="150dp"/>
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/party_face_image"
+                    android:src="@drawable/party_face"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="150dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/see_no_evil_image"
+                    android:src="@drawable/see_no_evil_monkey"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="150dp"/>
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/thumbs_up_image"
+                    android:src="@drawable/thumbs_up"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="150dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/triumph_image"
+                    android:src="@drawable/triumph_face"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="150dp"/>
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/zany_face_image"
+                    android:src="@drawable/zany_face"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="150dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/continue_ib_choose"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:tint="#fff"
+        android:layout_margin="8dp"
+        android:layout_toRightOf="@id/label"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_bg_3"
+        android:src="@drawable/ic_check" />
+
+</RelativeLayout>

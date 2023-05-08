@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tikoo</string>
+    <string name="player1nameHint">Player 1 Name</string>
+    <string name="player2nameHint">Player 2 Name</string>
+    <string name="action_settings">Settings</string>
+    <string name="exit">Exit</string>
+    <string name="title_activity_afterstart">@string/app_name</string>
+    <string name="feedback">help.snbapps@gmail.com</string>
+    <string name="app_link">https://play.google.com/store/apps/details?id=</string>
+    <string name="fb_appid">293643115917820</string>
+    <string name="fb_banner">293643115917820_293656035916528</string>
+    <string name="fb_interstitial">293643115917820_293654672583331</string>
+    <string name="fb_reward">293643115917820_306349961313802</string>
+    <string name="admob_banner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_reward">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="admob_appid">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="about_creator"><![CDATA[-built by > snbApps]]></string>
+</resources>

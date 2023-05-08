@@ -1,0 +1,94 @@
+{
+  "project_info": {
+    "project_number": "176183841712",
+    "firebase_url": "https://relloapplication-default-rtdb.firebaseio.com",
+    "project_id": "relloapplication",
+    "storage_bucket": "relloapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176183841712:android:b2a41071def62df3dd3c75",
+        "android_client_info": {
+          "package_name": "com.rello"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176183841712-mg966b6cfjumd590isfq8eh2j0o7e7e9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKvKyixm47GfsUz0lL3bRoxMeJSZmgKOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176183841712-mg966b6cfjumd590isfq8eh2j0o7e7e9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176183841712:android:764fa2b0f94f1be4dd3c75",
+        "android_client_info": {
+          "package_name": "com.sneva.rello"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176183841712-2rk523gqu4kpq1aptp0kla75dd6c78vj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sneva.rello",
+            "certificate_hash": "51dfdd0a262148d01fc753058197ef2223023c67"
+          }
+        },
+        {
+          "client_id": "176183841712-cedg3275l9tl6k3photn9kkqv23riafo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sneva.rello",
+            "certificate_hash": "07fb5c4b5ed7215704f1d38a99f89aa9a38c8f81"
+          }
+        },
+        {
+          "client_id": "176183841712-onuj1tt8v8a2jrhee7h6o7n1vjinqat0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sneva.rello",
+            "certificate_hash": "72109a0a23cd5a737e67dc9c6286bed5a2c66ef5"
+          }
+        },
+        {
+          "client_id": "176183841712-mg966b6cfjumd590isfq8eh2j0o7e7e9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKvKyixm47GfsUz0lL3bRoxMeJSZmgKOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176183841712-mg966b6cfjumd590isfq8eh2j0o7e7e9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-1023510991772498~4804252158"
+    }
+  ],
+  "configuration_version": "1"
+}
